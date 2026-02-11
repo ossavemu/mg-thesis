@@ -1,0 +1,34 @@
+{
+  "title": "LA CATEDRAL Y EL REPOSITORIO",
+  "subtitle": "Ontología Política de la Infraestructura del Conocimiento en la Era de la Reproducción Técnica Algorítmica",
+  "author": "[Nombre del Estudiante]",
+  "program": "Maestría en Filosofía",
+  "university": "[Nombre de la Universidad]",
+  "type": "Propuesta de Tesis",
+  "year": "[Año]",
+  "chapters": [
+    {
+      "id": "01_introduccion",
+      "title": "Introducción: El Pharmakon Digital",
+      "type": "introduction",
+      "sections": [
+        { "file": "el_pharmakon_digital.md", "title": "El Pharmakon Digital" }
+      ]
+    },
+    {
+      "id": "02_capitulo_1",
+      "title": "Capítulo 1: La Catedral Digital",
+      "type": "chapter",
+      "sections": [
+        { "file": "el_fantasma_de_la_totalidad.md", "title": "El fantasma de la totalidad: De la Biblioteca de Babel al repositorio infinito" },
+        { "file": "la_infraestructura_como_ideologia.md", "title": "1.1 La Infraestructura como Ideología" },
+        { "file": "el_pdf_y_la_epistemologia.md", "title": "1.2 El PDF y la epistemología" },
+        { "file": "el_cercamiento_digital.md", "title": "1.3 El Cercamiento Digital" },
+        { "file": "sistemas_de_atribucion_y_control.md", "title": "1.4 Sistemas de atribución y control" },
+        { "file": "la_revision_por_pares.md", "title": "1.5 La revisión por pares como Caja Negra Institucional" },
+        { "file": "contradicciones.md", "title": "1.6 Contradicciones" },
+        { "file": "hacia_el_repositorio.md", "title": "1.7 Hacia el repositorio" }
+      ]
+    }
+  ]
+}
