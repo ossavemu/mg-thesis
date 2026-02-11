@@ -1,11 +1,12 @@
 {
   "title": "LA CATEDRAL Y EL REPOSITORIO",
   "subtitle": "Ontología Política de la Infraestructura del Conocimiento en la Era de la Reproducción Técnica Algorítmica",
-  "author": "[Nombre del Estudiante]",
+  "author": "OSCAR SANTIAGO VELEZ",
   "program": "Maestría en Filosofía",
-  "university": "[Nombre de la Universidad]",
+  "university": "Universidad del Valle",
+  "location": "Cali, Valle del Cauca",
   "type": "Propuesta de Tesis",
-  "year": "[Año]",
+  "year": "2026",
   "chapters": [
     {
       "id": "01_introduccion",
