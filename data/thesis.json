@@ -13,7 +13,8 @@
       "title": "Introducción: El Pharmakon Digital",
       "type": "introduction",
       "sections": [
-        { "file": "el_pharmakon_digital.md", "title": "El Pharmakon Digital" }
+        { "file": "el_pharmakon_digital.md", "title": "El Pharmakon Digital" },
+        { "file": "bibliografia.md", "title": "Bibliografía" }
       ]
     },
     {
@@ -28,7 +29,8 @@
         { "file": "sistemas_de_atribucion_y_control.md", "title": "1.4 Sistemas de atribución y control" },
         { "file": "la_revision_por_pares.md", "title": "1.5 La revisión por pares como Caja Negra Institucional" },
         { "file": "contradicciones.md", "title": "1.6 Contradicciones" },
-        { "file": "hacia_el_repositorio.md", "title": "1.7 Hacia el repositorio" }
+        { "file": "hacia_el_repositorio.md", "title": "1.7 Hacia el repositorio" },
+        { "file": "bibliografia.md", "title": "Bibliografía" }
       ]
     }
   ]
