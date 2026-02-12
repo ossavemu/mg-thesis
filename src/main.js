@@ -1,5 +1,6 @@
 import './style.css'
 import { marked } from 'marked'
+import { initComments } from './comments.js'
 
 const app = document.querySelector('#app')
 
@@ -91,6 +92,9 @@ async function loadThesis() {
   }
 
   app.innerHTML = html
+
+  // Comments widget (uses the current #hash as the thread id)
+  app.appendChild(initComments())
 }
 
 loadThesis().catch(err => {

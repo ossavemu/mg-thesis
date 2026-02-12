@@ -1,0 +1,17 @@
+name = "mg-thesis-comments"
+main = "worker/index.ts"
+compatibility_date = "2026-02-11"
+
+[observability]
+enabled = true
+
+# R2 binding name used in the Worker code.
+[[r2_buckets]]
+binding = "THESIS_BUCKET"
+bucket_name = "mg-thesis"
+
+[vars]
+# Comma-separated allowlist for CORS (no secrets here).
+# Example:
+# CORS_ORIGINS = "http://localhost:5173,https://osanv.github.io"
+CORS_ORIGINS = "http://localhost:5173"
