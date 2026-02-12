@@ -39,7 +39,7 @@ function processFootnotes(html, sectionId) {
 }
 
 async function loadThesis() {
-  const res = await fetch('/data/thesis.json')
+  const res = await fetch(`${import.meta.env.BASE_URL}data/thesis.json`)
   const thesis = await res.json()
 
   let html = ''
@@ -49,6 +49,7 @@ async function loadThesis() {
     <div class="cover">
       <div class="program">${thesis.program}</div>
       <div class="university">${thesis.university}</div>
+      ${thesis.location ? `<div class="location">${thesis.location}</div>` : ''}
       <div class="title">${thesis.title}</div>
       <div class="subtitle">${thesis.subtitle}</div>
       <div class="type">${thesis.type}</div>
@@ -79,7 +80,7 @@ async function loadThesis() {
     if (chapter.sections) {
       for (const section of chapter.sections) {
         const sectionId = section.file.replace('.md', '')
-        const mdRes = await fetch(`/data/${chapter.id}/${section.file}`)
+        const mdRes = await fetch(`${import.meta.env.BASE_URL}data/${chapter.id}/${section.file}`)
         const mdText = await mdRes.text()
         const sectionHtml = processFootnotes(marked(mdText), sectionId)
         html += `<section id="${sectionId}">${sectionHtml}</section>`

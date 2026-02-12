@@ -56,6 +56,11 @@ body {
 .cover .university {
   font-size: 0.95rem;
   color: var(--color-muted);
+}
+
+.cover .location {
+  font-size: 0.9rem;
+  color: var(--color-muted);
   margin-bottom: 2rem;
 }
 
@@ -313,29 +318,116 @@ body {
 
 /* Mobile responsive adjustments */
 @media (max-width: 600px) {
+  :root {
+    --font-size: 14px;
+    --line-height: 1.6;
+  }
+
   body {
-    padding: 0.75rem;
-    font-size: 15px;
+    padding: 1rem;
   }
 
   .cover {
-    padding: 2rem 0.5rem;
-    min-height: 50vh;
+    padding: 1.5rem 0.75rem;
+    min-height: auto;
+    gap: 0.75rem;
+  }
+
+  .cover .program {
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .cover .university {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .cover .location {
+    font-size: 0.8rem;
+    margin-bottom: 1rem;
   }
 
   .cover .title {
-    font-size: 1.4rem;
+    font-size: 1.25rem;
+    line-height: 1.25;
+    margin-bottom: 0.5rem;
+  }
+
+  .cover .subtitle {
+    font-size: 0.95rem;
+    line-height: 1.35;
+    margin-bottom: 1rem;
+  }
+
+  .cover .type {
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+  }
+
+  .cover .author-label {
+    font-size: 0.8rem;
+  }
+
+  .cover .author {
+    font-size: 0.95rem;
+  }
+
+  .cover .year {
+    font-size: 0.85rem;
+    margin-top: 0.5rem;
+  }
+
+  .toc h2 {
+    font-size: 1rem;
+  }
+
+  .toc .toc-chapter {
+    font-size: 0.9rem;
+  }
+
+  .toc .toc-section {
+    font-size: 0.8rem;
+    padding-left: 1rem;
+  }
+
+  .chapter-title {
+    font-size: 1.1rem;
+  }
+
+  .chapter h2 {
+    font-size: 1.05rem;
+  }
+
+  .chapter h3 {
+    font-size: 0.95rem;
+  }
+
+  .chapter h4 {
+    font-size: 0.9rem;
+  }
+
+  .chapter p {
+    text-indent: 1.2rem;
+    text-align: left;
   }
 
   .chapter table {
-    font-size: 0.78rem;
+    font-size: 0.7rem;
     display: block;
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
   }
 
-  .chapter p {
-    text-indent: 1.5rem;
+  .chapter th,
+  .chapter td {
+    padding: 0.4rem;
+  }
+
+  .chapter blockquote {
+    margin: 0.75rem 0 0.75rem 0.5rem;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
   }
 }
 
